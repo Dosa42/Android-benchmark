@@ -77,11 +77,11 @@ jobs:
             echo "::warning::CMakeLists.txt not found at app/src/main/cpp/CMakeLists.txt"
           fi
 
-      - name: 3. Set up JDK 17 (Temurin)
+      - name: 3. Set up JDK 21 (Temurin)
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
           cache: 'gradle'
 
       - name: 4. Setup Android SDK Environment
