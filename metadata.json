@@ -1,0 +1,6 @@
+{
+  "name": "Native Benchmark",
+  "description": "Deterministic native C++/NDK Android benchmark suite with real-world workloads, hardware topology detection, and thermal telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
